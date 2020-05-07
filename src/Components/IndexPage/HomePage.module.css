@@ -1,0 +1,31 @@
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  color: #c0c0c0;
+  text-align: center;
+}
+.imgContainer {
+  border: 2px solid #000000;
+  border-style: outset;
+  margin: 2em 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.textContainer {
+  border: 2px solid #000000;
+  margin: 2em 10%;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+}
+
+@media (max-width: 280px) {
+  .Navbar {
+    position: sticky;
+    display: none;
+  }
+}
